@@ -16,10 +16,89 @@
             <a href="index.html" class="logo">artemtrubin.ho.ua</a>
             <div id="toggle" onclick="toggle()"></div>
         </header>
-        <div class="content">
-
+        <div class="content experience">
+            <h2>My experience</h2>
+            <div class="exp-block">
+                <h4 class="exp-header">
+                    Education
+                </h4>
+                <div class="exp-content">
+                    <p>
+                        <span class="color">Backelor</span>'s degree in "<span class="color">Computer systems and
+                            networks</span>" at <a class="in-text-link" href="https://nau.edu.ua/">National Aviation
+                            University</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="exp-block">
+                <h4 class="exp-header">
+                    Python 3
+                </h4>
+                <div class="exp-content">
+                    <ul>
+                        <li>Experience with OOP, threading, basic modules</li>
+                        <li>Django and Flask back-end development experience</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="exp-block">
+                <h4 class="exp-header">
+                    HTML | CSS | JS
+                </h4>
+                <div class="exp-content">
+                    <ul>
+                        <li>Plain HTML/CSS/JS knowledge</li>
+                        <li>React</li>
+                        <li>jQuery</li>
+                        <li>ES6</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="exp-block">
+                <h4 class="exp-header">
+                    Databases
+                </h4>
+                <div class="exp-content">
+                    <ul>
+                        <li>SQL</li>
+                        <li>Microsoft SQL Server</li>
+                        <li>SQLite 3</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="exp-block">
+                <h4 class="exp-header">
+                    Additional
+                </h4>
+                <div class="exp-content">
+                    <ul>
+                        <li>Adobe Photoshop, Illustrator, InDesign</li>
+                        <li>Microsoft Office</li>
+                        <li>Git</li>
+                        <li>Experience with Linux and MacOS</li>
+                    </ul>
+                </div>
+            </div>
         </div>
+
     </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function toggle() {
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigation');
+            sec.classList.toggle('active')
+            nav.classList.toggle('active')
+        }
+    </script>
 </body>
 
 </html>

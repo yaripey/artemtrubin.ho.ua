@@ -228,7 +228,6 @@ header #toggle:after {
 .contacts {
     width: 100%;   
     max-width: 100%;
-
 }
 
 h4{
@@ -332,6 +331,30 @@ a.in-text-link:hover {
     transition: 0.3s;
 }
 
+/* Experience */
+.experience{
+    max-width: 100%;
+    text-align: center;
+}
+.exp-block{
+    text-align: left;
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    vertical-align: top;
+}
+
+.exp-content {
+    color: white;
+}
+.exp-content p {
+    margin-top: 15px;
+    line-height: 0.5em;
+    font-size: 1rem;
+}
+.exp-content ul {
+    line-height: 2em;
+}
 
 
 @media (max-width: 767px){
@@ -384,5 +407,12 @@ a.in-text-link:hover {
     }
     h4 {
         font-size: 1.5em;
+    }
+    /* Experience */
+    .exp-block{
+        display: block;
+    }
+    .exp-block {
+        width: 100%;
     }
 }
